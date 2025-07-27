@@ -7,6 +7,21 @@
         justify-content: center;
         gap: 15px;
   }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+}
+.section-1 button{
+    width: 100%;
+}
+.social-icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
 }
 @media (max-width:768px) {
     /* large Mobile */
@@ -29,9 +44,20 @@
         font-size: 22px;
         padding-top: 0.7rem;
     }
-    .logo {
-        /* position: relative; */
+    .section-1 h1  {
+        font-size: 1.7rem;
+    }
+    .section-1 p{
+        font-size: 13px;
+    }
+    .section-1 button {
+        font-size: 15px;
     }
     
 
+}
+@media (max-width:600px) {
+    .section-1 {
+        text-align: center;
+    }
 }
