@@ -40,12 +40,12 @@
         height: 276px;
 }
 
-.project {
+/* .project {
     justify-content: space-around;
 }
 .project-car-3 {
     padding-bottom: 30px;
-}
+} */
 }
 @media (max-width:768px) {
     /* large Mobile */
@@ -68,7 +68,7 @@
         font-size: 30px !important;
         
     }
-    .project {
+    /* .project {
         display: block;
         text-align: center;
     }
@@ -84,7 +84,7 @@
     }
     .project-car-6 {
         padding-bottom: 30px;
-    }
+    } */
 }
 @media (max-width:488px) {
     /* Small Mobile */
